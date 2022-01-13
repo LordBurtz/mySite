@@ -5,10 +5,89 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #1d2026;
+}
+
 .hero {
     background: #1d2026;
     min-height: 100vh;
     width: 100%;
     color: aliceblue;
     position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+nav .menu-img {
+    width: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .logo-img {
+    width: 360px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+button {
+    background: #efefef;
+    background-repeat: inherit;
+    height: 30px;
+    width: 60px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+} 
+
+.leCircle {
+    display: block;
+    background: gray;
+    height: 26px;
+    width: 26px;
+    border-radius: 20%;
+    margin-left: 2px;
+}
+
+.lamp-container {
+    position: absolute;
+    top: -10px;
+    left: 22%;
+    width: 200px;
+}
+
+.lamp-img {
+    height: 20%;
+    width: 100%;
+}
+
+.light-img {
+    position: absolute;
+    top: 50%;
+    left: -90%;
+    transform: translateX(-50);
+    width: 700px;
+    height: 500px;
+    object-fit: contain;
 }
