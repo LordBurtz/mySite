@@ -103,3 +103,55 @@ body {
     font-size: 22;
     line-height: 30px;
 }
+
+.title {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+
+.title svg {
+    font-size: 250px;
+
+}
+
+.copy {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-dasharray: 8% 30%;
+    stroke-dashoffset: 0%;
+    animation: leTextAnimation 6s linear infinite;
+}
+
+@keyframes leTextAnimation {
+    100% {
+        stroke-dashoffset: -35%;
+    }
+}
+
+.copy1 {
+    stroke: #b73a67;
+    animation-delay: -1s;
+}
+
+.copy2 {
+    stroke: #631ee9;
+    animation-delay: -2s;
+}
+
+.copy3 {
+    stroke: #2257ff;
+    animation-delay: -3s;
+}
+
+.copy4 {
+    stroke: #3643f4;
+    animation-delay: -4s;
+}
+
+.copy5 {
+    stroke: #07c1ff;
+    animation-delay: -5s;
+}
