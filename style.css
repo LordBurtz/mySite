@@ -109,11 +109,12 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', 'sans-serif';
+    background-color: rgba(26, 27, 47, 0.24);
+    
 }
 
 .title svg {
-    font-size: 250px;
-
+    font-size: 280px;
 }
 
 .copy {
@@ -137,7 +138,7 @@ body {
 }
 
 .copy2 {
-    stroke: #631ee9;
+    stroke: #6d30e7;
     animation-delay: -2s;
 }
 
@@ -147,7 +148,7 @@ body {
 }
 
 .copy4 {
-    stroke: #3643f4;
+    stroke: #4955ff;
     animation-delay: -4s;
 }
 
